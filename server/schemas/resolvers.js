@@ -57,7 +57,7 @@ const resolvers = {
       const order = new Order({ products: args.products });
       const line_items = [];
 
-      const { products } = await order.populate('products');
+      const { products } = await order.populate('products').execPopulate();
 
       for (let i = 0; i < products.length; i++) {
         const product = await stripe.products.create({
@@ -87,6 +87,9 @@ const resolvers = {
       });
 
       return { session: session.id };
+    },
+    users: async () => {
+      return await User.find().populate('orders.products');
     }
   },
   Mutation: {
