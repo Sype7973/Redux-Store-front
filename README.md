@@ -14,13 +14,12 @@
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+- To use this project, go to the deployed application and sign up for an account. Then you can add items to your cart and checkout using Stripe.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+
+![Storefront](/client/src/assets/screencap.PNG)
+
 
 🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
