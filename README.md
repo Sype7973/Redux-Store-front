@@ -11,6 +11,10 @@
 ## Installation
 
 - To install this project, clone the repository and run `npm install` to install all dependencies. Then run `npm run develop` to start the server.
+- Repo link: https://github.com/Sype7973/Redux-Store-front
+
+
+- or go to the heroku link https://redux-store-front-5f674dc3216b.herokuapp.com/
 
 ## Usage
 
